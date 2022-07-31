@@ -21,27 +21,38 @@ body{
     width: 1440px;
     height: 100px;
     background-color: #F4F4F4;
+    
 }
 .control{
+    padding-bottom: 12px;
     display: flex;
+
 }
-.home_button1{
-    display: flex;
+.custom-btn-1{
+    display: inline-block;
     margin-left: 220px;
     margin-top: 53px;
     width: 80px;
     height: 26px;
-    background-color: #0271C7;
     font-size: 12px;
     line-height: 14.06px; 
     color: #FFFFFF;
-    border-radius: 2px; 
+    border-radius: 4px; 
     border: none;
     justify-content: center;
+    cursor: pointer;
+   outline: none;
+    }
+   .btn-1, .btn-2 {
+    background-color: #0271C7;
+    border: none;
+     }
+    .btn-1:hover, .btn-2:hover {
+    background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
+    }
     
-}
-.home_button2{
-    display: flex;
+.custom-btn-2{
+    display: inline-block;
     margin-left: 10px;
     margin-top: 53px;
     width: 80px;
@@ -53,14 +64,17 @@ body{
     border-radius: 2px;
     border: none;
     justify-content: center;
+    cursor: pointer;
 }
-.logo{
+.custom-btn-3{
+    display: flex;
+    background-image: url(../Стажировка072022/images/vector.png);
     width: 18px;
     height: 18px;
     margin-left: 581px;
     margin-top: 57px ;
-}
-.search_home{
+ }
+.search{
     width: 210px;
     height: 28px;
     margin-left: 21px;
@@ -68,17 +82,26 @@ body{
 }
 .conteiner2{
     background-color: #FFFFFF;
-}
-.icon1, .icon2{
-    background-color: #FFFFFF;
-    width: 32px;
-    height: 24px;
-    
+   
 }
 .monthly_control{
     display: flex;
     margin-left: 220px;
     background-color: #FFFFFF;
+}
+.arrow_left{
+    display: flex;
+    background-image: url(../Стажировка072022/images/left_arrow.png);
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 16px;   
+}
+.arrow_right{
+    display: flex;
+    background-image: url(../Стажировка072022/images/right_arrow.png);
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 16px;   
 }
 .str1{
     width: 1001px; 
@@ -89,6 +112,7 @@ body{
     padding-right: 220px;
     padding-bottom: 52px;
     background-color: #FFFFFF;
+    padding-top: 10px;
 }
 .cell {
     border: 1px solid gray;
@@ -115,15 +139,15 @@ p{
 }
 
 .p1{   
+    justify-content: center;   
     font-size: 18px;
     padding-left: 24px;
     padding-right: 24px;
-
 }
 .text1{
     width: 59px;
     height: 18px;
-    font-size: 12px;
+    font-size: 12px;s
     margin-left: 12px;
     border: 1px solid gray;
     border-radius: 3px;
