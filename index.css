@@ -68,7 +68,7 @@ body{
 }
 .custom-btn-3{
     display: inline-flex;
-    background-image: url(../Стажировка072022/images/vector.png);
+    background-image: url(images/vector.png);
     width: 18px;
     height: 18px;
     margin-left: 552px;
@@ -106,7 +106,7 @@ body{
 }
 .arrow_left{
     display: flex;
-    background-image: url(../Стажировка072022/images/left_arrow.png);
+    background-image: url(images/left_arrow.png);
     background-repeat: no-repeat;
     width: 14px;
     height: 16px;   
@@ -114,7 +114,7 @@ body{
 }
 .arrow_right{
     display: flex;
-    background-image: url(../Стажировка072022/images/right_arrow.png);
+    background-image: url(images/right_arrow.png);
     background-repeat: no-repeat;
     width: 14px;
     height: 16px;   
